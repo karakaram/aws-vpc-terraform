@@ -1,0 +1,10 @@
+prefix                         = "my"
+region                           = "ap-northeast-1"
+aws_vpc_cidr_block               = "10.1.0.0/16"
+aws_availability_zones           = ["ap-northeast-1a", "ap-northeast-1c", "ap-northeast-1d"]
+aws_vpc_private_cidr_blocks      = ["10.1.0.0/19", "10.1.32.0/19", "10.1.64.0/19"]
+aws_vpc_public_cidr_blocks       = ["10.1.96.0/19", "10.1.128.0/20", "10.1.160.0/19"]
+enable_nat_gateway               = true
+single_nat_gateway               = false
+one_nat_gateway_per_az           = true
+ec2_instance_connect_sidr_block  = "3.112.23.0/29"

@@ -1,0 +1,10 @@
+prefix                          = "my"
+region                          = "us-west-2"
+aws_vpc_cidr_block              = "192.168.0.0/16"
+aws_availability_zones          = ["us-west-2a", "us-west-2c", "us-west-2b"]
+aws_vpc_private_cidr_blocks     = ["192.168.0.0/19", "192.168.32.0/19", "192.168.64.0/19"]
+aws_vpc_public_cidr_blocks      = ["192.168.96.0/19", "192.168.128.0/19", "192.168.160.0/19"]
+enable_nat_gateway              = true
+single_nat_gateway              = true
+one_nat_gateway_per_az          = false
+ec2_instance_connect_sidr_block = "18.237.140.160/29"
